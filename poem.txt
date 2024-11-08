@@ -1,0 +1,19 @@
+In the land of code, where bugs do roam,
+A Rust developer calls it home.
+With lifetimes checked and borrow rules tight,
+They code through the day and into the night.
+
+No null pointers to cause dismay,
+Just safe concurrency all the way.
+With `cargo build` and `cargo test`,
+They strive to make their code the best.
+
+Memory leaks? They laugh and scoff,
+For Rust's ownership keeps them off.
+Though the syntax might make others frown,
+Rustaceans wear it like a crown.
+
+So here's to the devs who code in Rust,
+In safety and speed, they place their trust.
+With fearless refactoring and zero-cost,
+They've found the language they love the most.
