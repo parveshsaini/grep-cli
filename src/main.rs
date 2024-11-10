@@ -5,14 +5,14 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     let config= Config::new(&args).unwrap_or_else(|err| {
-        println!("{}", err);
+        eprintln!("{}", err);
         process::exit(1);
     });
 
-    println!("searching {} in file {} ...", config.query, config.filename);
+    println!("🔍 searching {} in file {} ...", config.query, config.filename);
 
     if let Err(err) = grepcli::run(config) {
-        println!("error in run func: {}", err);
+        eprintln!("error in run func: {}", err);
         process::exit(1);
     }
 
